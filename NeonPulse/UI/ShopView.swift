@@ -82,7 +82,7 @@ private struct SkinRowView: View {
                 Circle()
                     .fill(Color(hex: skin.coreHex) ?? .cyan)
                     .frame(width: 44, height: 44)
-                    .shadow(color: Color(hex: skin.glowHex) ?? .magenta, radius: 8)
+                    .shadow(color: Color(hex: skin.glowHex) ?? .pink, radius: 8)
                 
                 Circle()
                     .stroke(Color.white, lineWidth: 2)
