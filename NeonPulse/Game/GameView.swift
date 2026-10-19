@@ -52,6 +52,9 @@ public struct GameView: View {
             .sheet(isPresented: $gameState.showMissions) {
                 MissionsView()
             }
+            .sheet(isPresented: $gameState.showCrates) {
+                CrateView()
+            }
         }
     }
 }

@@ -11,6 +11,7 @@ files = [
     ('Game/PlayerNode.swift', 'Game', 'PlayerNode.swift', False),
     ('Game/ObstacleNode.swift', 'Game', 'ObstacleNode.swift', False),
     ('Game/CollectibleNode.swift', 'Game', 'CollectibleNode.swift', False),
+    ('Game/PowerUpNode.swift', 'Game', 'PowerUpNode.swift', False),
     ('Game/GameScene.swift', 'Game', 'GameScene.swift', False),
     ('Game/GameView.swift', 'Game', 'GameView.swift', False),
     ('Managers/ScoreManager.swift', 'Managers', 'ScoreManager.swift', False),
@@ -19,6 +20,7 @@ files = [
     ('UI/GameOverView.swift', 'UI', 'GameOverView.swift', False),
     ('UI/ShopView.swift', 'UI', 'ShopView.swift', False),
     ('UI/MissionsView.swift', 'UI', 'MissionsView.swift', False),
+    ('UI/CrateView.swift', 'UI', 'CrateView.swift', False),
     ('Assets.xcassets', '', 'Assets.xcassets', True),
 ]
 

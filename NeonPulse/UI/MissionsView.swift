@@ -122,7 +122,7 @@ private struct MissionCardView: View {
         .padding(14)
         .background(
             RoundedRectangle(cornerRadius: 12)
-                .fill(Color(white: 0.12))
+                .fill(Color(red: 0.12, green: 0.12, blue: 0.15))
                 .overlay(RoundedRectangle(cornerRadius: 12).stroke(mission.isCompleted && !mission.isClaimed ? Color.yellow.opacity(0.6) : Color.white.opacity(0.06), lineWidth: 1))
         )
     }

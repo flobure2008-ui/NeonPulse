@@ -7,47 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF8621530EB2FFF34B9A8400 /* NeonPulseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA038AED0EB2FFF372D4D758 /* NeonPulseApp.swift */; };
-		BF8621539C8861384EC47720 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA038AED9C886138FA17D8A7 /* GameState.swift */; };
-		BF862153A7E9E9B89495E282 /* SoundEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA038AEDA7E9E9B86144E1F8 /* SoundEngine.swift */; };
-		BF862153A5D488D8479FC2DC /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA038AEDA5D488D8DF688C1C /* HapticManager.swift */; };
-		BF86215377BB70773FD06E7C /* ParticleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA038AED77BB707749F9552B /* ParticleManager.swift */; };
-		BF862153C6BCD55F7DFF8FA0 /* PhysicsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA038AEDC6BCD55FE2CED88B /* PhysicsCategory.swift */; };
-		BF86215341072C73DB4683F3 /* PlayerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA038AED41072C73608188D8 /* PlayerNode.swift */; };
-		BF8621531DC5BC67C5C1FB7D /* ObstacleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA038AED1DC5BC67ADB206B1 /* ObstacleNode.swift */; };
-		BF862153E4A7DD81BDF7CB0B /* CollectibleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA038AEDE4A7DD81E17B1BD1 /* CollectibleNode.swift */; };
-		BF862153795E7BD33B185646 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA038AED795E7BD397B0E06A /* GameScene.swift */; };
-		BF862153D903723227B1E6C3 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA038AEDD9037232D5933CBF /* GameView.swift */; };
-		BF862153A2BA4CD67D7A0A58 /* ScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA038AEDA2BA4CD6760BEC49 /* ScoreManager.swift */; };
-		BF8621537A63B22A137B6408 /* SkinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA038AED7A63B22A7FA183D7 /* SkinManager.swift */; };
-		BF8621534972D244257DBBA9 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA038AED4972D2441811D0EA /* HUDView.swift */; };
-		BF862153CAB86F52C117297D /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA038AEDCAB86F525328D475 /* GameOverView.swift */; };
-		BF862153551822958E6AAB91 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA038AED5518229526C24590 /* ShopView.swift */; };
-		BF8621538A962C612A36FB67 /* MissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA038AED8A962C610716793F /* MissionsView.swift */; };
-		BF8621536CF033657D241811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA038AED6CF0336533B51E63 /* Assets.xcassets */; };
+		629D2EAA5891EF0DF391E87B /* NeonPulseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB2995891EF0D7B55105F /* NeonPulseApp.swift */; };
+		629D2EAA1B7ACE77AC09A6DD /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB2991B7ACE77343113E4 /* GameState.swift */; };
+		629D2EAA5755FB66A2A4E5D8 /* SoundEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB2995755FB6665CDD0E6 /* SoundEngine.swift */; };
+		629D2EAA709B6B697B2A8B5E /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB299709B6B69371152C4 /* HapticManager.swift */; };
+		629D2EAAB6C45C41491837E7 /* ParticleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB299B6C45C417ED6328A /* ParticleManager.swift */; };
+		629D2EAA72A1919E46DAC6C2 /* PhysicsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB29972A1919E29940B46 /* PhysicsCategory.swift */; };
+		629D2EAAB920F9FEDE40CF35 /* PlayerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB299B920F9FE0013F796 /* PlayerNode.swift */; };
+		629D2EAA7047A1C70CCEC5E7 /* ObstacleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB2997047A1C7932B5C9B /* ObstacleNode.swift */; };
+		629D2EAA8A31220303096834 /* CollectibleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB2998A312203445C6DB3 /* CollectibleNode.swift */; };
+		629D2EAA4741823D5C683CB5 /* PowerUpNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB2994741823D20CF8A48 /* PowerUpNode.swift */; };
+		629D2EAA4B84AAF9C5B7129D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB2994B84AAF90DF4C6E2 /* GameScene.swift */; };
+		629D2EAA49A05089616671F8 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB29949A05089A0550628 /* GameView.swift */; };
+		629D2EAAA24C99C8C82E12EC /* ScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB299A24C99C8044E1908 /* ScoreManager.swift */; };
+		629D2EAA4E50BA5EC5C89A06 /* SkinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB2994E50BA5EF3C9E6A6 /* SkinManager.swift */; };
+		629D2EAA085A8D5550B4EA95 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB299085A8D5513B005DC /* HUDView.swift */; };
+		629D2EAA64DC4F48400E2018 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB29964DC4F48117FF4C1 /* GameOverView.swift */; };
+		629D2EAAB36B46EA7DBD06D2 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB299B36B46EA0B7C185E /* ShopView.swift */; };
+		629D2EAA38657C73D3AA837B /* MissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB29938657C73F01425E8 /* MissionsView.swift */; };
+		629D2EAAD63D5FFDB51718E1 /* CrateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401EB299D63D5FFD68C3E377 /* CrateView.swift */; };
+		629D2EAAFED298E186321558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401EB299FED298E14698C900 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A10000000000000000000008 /* NeonPulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeonPulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA038AED0EB2FFF372D4D758 /* NeonPulseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonPulseApp.swift; sourceTree = "<group>"; };
-		BA038AEDD125886912ABF605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA038AED9C886138FA17D8A7 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
-		BA038AEDA7E9E9B86144E1F8 /* SoundEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEngine.swift; sourceTree = "<group>"; };
-		BA038AEDA5D488D8DF688C1C /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
-		BA038AED77BB707749F9552B /* ParticleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleManager.swift; sourceTree = "<group>"; };
-		BA038AEDC6BCD55FE2CED88B /* PhysicsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsCategory.swift; sourceTree = "<group>"; };
-		BA038AED41072C73608188D8 /* PlayerNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerNode.swift; sourceTree = "<group>"; };
-		BA038AED1DC5BC67ADB206B1 /* ObstacleNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObstacleNode.swift; sourceTree = "<group>"; };
-		BA038AEDE4A7DD81E17B1BD1 /* CollectibleNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectibleNode.swift; sourceTree = "<group>"; };
-		BA038AED795E7BD397B0E06A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		BA038AEDD9037232D5933CBF /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
-		BA038AEDA2BA4CD6760BEC49 /* ScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreManager.swift; sourceTree = "<group>"; };
-		BA038AED7A63B22A7FA183D7 /* SkinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinManager.swift; sourceTree = "<group>"; };
-		BA038AED4972D2441811D0EA /* HUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
-		BA038AEDCAB86F525328D475 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
-		BA038AED5518229526C24590 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
-		BA038AED8A962C610716793F /* MissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsView.swift; sourceTree = "<group>"; };
-		BA038AED6CF0336533B51E63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		401EB2995891EF0D7B55105F /* NeonPulseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonPulseApp.swift; sourceTree = "<group>"; };
+		401EB2990C277194E65F294C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401EB2991B7ACE77343113E4 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		401EB2995755FB6665CDD0E6 /* SoundEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEngine.swift; sourceTree = "<group>"; };
+		401EB299709B6B69371152C4 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		401EB299B6C45C417ED6328A /* ParticleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleManager.swift; sourceTree = "<group>"; };
+		401EB29972A1919E29940B46 /* PhysicsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsCategory.swift; sourceTree = "<group>"; };
+		401EB299B920F9FE0013F796 /* PlayerNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerNode.swift; sourceTree = "<group>"; };
+		401EB2997047A1C7932B5C9B /* ObstacleNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObstacleNode.swift; sourceTree = "<group>"; };
+		401EB2998A312203445C6DB3 /* CollectibleNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectibleNode.swift; sourceTree = "<group>"; };
+		401EB2994741823D20CF8A48 /* PowerUpNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUpNode.swift; sourceTree = "<group>"; };
+		401EB2994B84AAF90DF4C6E2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		401EB29949A05089A0550628 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		401EB299A24C99C8044E1908 /* ScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreManager.swift; sourceTree = "<group>"; };
+		401EB2994E50BA5EF3C9E6A6 /* SkinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinManager.swift; sourceTree = "<group>"; };
+		401EB299085A8D5513B005DC /* HUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
+		401EB29964DC4F48117FF4C1 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		401EB299B36B46EA0B7C185E /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		401EB29938657C73F01425E8 /* MissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsView.swift; sourceTree = "<group>"; };
+		401EB299D63D5FFD68C3E377 /* CrateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrateView.swift; sourceTree = "<group>"; };
+		401EB299FED298E14698C900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +88,7 @@
 				A10000000000000000000022 /* Game */,
 				A10000000000000000000023 /* Managers */,
 				A10000000000000000000024 /* UI */,
-				BA038AED6CF0336533B51E63 /* Assets.xcassets */,
+				401EB299FED298E14698C900 /* Assets.xcassets */,
 			);
 			path = NeonPulse;
 			sourceTree = "<group>";
@@ -92,8 +96,8 @@
 		A10000000000000000000021 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				BA038AED0EB2FFF372D4D758 /* NeonPulseApp.swift */,
-				BA038AEDD125886912ABF605 /* Info.plist */,
+				401EB2995891EF0D7B55105F /* NeonPulseApp.swift */,
+				401EB2990C277194E65F294C /* Info.plist */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -101,16 +105,17 @@
 		A10000000000000000000022 /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				BA038AED9C886138FA17D8A7 /* GameState.swift */,
-				BA038AEDA7E9E9B86144E1F8 /* SoundEngine.swift */,
-				BA038AEDA5D488D8DF688C1C /* HapticManager.swift */,
-				BA038AED77BB707749F9552B /* ParticleManager.swift */,
-				BA038AEDC6BCD55FE2CED88B /* PhysicsCategory.swift */,
-				BA038AED41072C73608188D8 /* PlayerNode.swift */,
-				BA038AED1DC5BC67ADB206B1 /* ObstacleNode.swift */,
-				BA038AEDE4A7DD81E17B1BD1 /* CollectibleNode.swift */,
-				BA038AED795E7BD397B0E06A /* GameScene.swift */,
-				BA038AEDD9037232D5933CBF /* GameView.swift */,
+				401EB2991B7ACE77343113E4 /* GameState.swift */,
+				401EB2995755FB6665CDD0E6 /* SoundEngine.swift */,
+				401EB299709B6B69371152C4 /* HapticManager.swift */,
+				401EB299B6C45C417ED6328A /* ParticleManager.swift */,
+				401EB29972A1919E29940B46 /* PhysicsCategory.swift */,
+				401EB299B920F9FE0013F796 /* PlayerNode.swift */,
+				401EB2997047A1C7932B5C9B /* ObstacleNode.swift */,
+				401EB2998A312203445C6DB3 /* CollectibleNode.swift */,
+				401EB2994741823D20CF8A48 /* PowerUpNode.swift */,
+				401EB2994B84AAF90DF4C6E2 /* GameScene.swift */,
+				401EB29949A05089A0550628 /* GameView.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -118,8 +123,8 @@
 		A10000000000000000000023 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				BA038AEDA2BA4CD6760BEC49 /* ScoreManager.swift */,
-				BA038AED7A63B22A7FA183D7 /* SkinManager.swift */,
+				401EB299A24C99C8044E1908 /* ScoreManager.swift */,
+				401EB2994E50BA5EF3C9E6A6 /* SkinManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -127,10 +132,11 @@
 		A10000000000000000000024 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				BA038AED4972D2441811D0EA /* HUDView.swift */,
-				BA038AEDCAB86F525328D475 /* GameOverView.swift */,
-				BA038AED5518229526C24590 /* ShopView.swift */,
-				BA038AED8A962C610716793F /* MissionsView.swift */,
+				401EB299085A8D5513B005DC /* HUDView.swift */,
+				401EB29964DC4F48117FF4C1 /* GameOverView.swift */,
+				401EB299B36B46EA0B7C185E /* ShopView.swift */,
+				401EB29938657C73F01425E8 /* MissionsView.swift */,
+				401EB299D63D5FFD68C3E377 /* CrateView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -193,7 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF8621536CF033657D241811 /* Assets.xcassets in Resources */,
+				629D2EAAFED298E186321558 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,23 +210,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF8621530EB2FFF34B9A8400 /* NeonPulseApp.swift in Sources */,
-				BF8621539C8861384EC47720 /* GameState.swift in Sources */,
-				BF862153A7E9E9B89495E282 /* SoundEngine.swift in Sources */,
-				BF862153A5D488D8479FC2DC /* HapticManager.swift in Sources */,
-				BF86215377BB70773FD06E7C /* ParticleManager.swift in Sources */,
-				BF862153C6BCD55F7DFF8FA0 /* PhysicsCategory.swift in Sources */,
-				BF86215341072C73DB4683F3 /* PlayerNode.swift in Sources */,
-				BF8621531DC5BC67C5C1FB7D /* ObstacleNode.swift in Sources */,
-				BF862153E4A7DD81BDF7CB0B /* CollectibleNode.swift in Sources */,
-				BF862153795E7BD33B185646 /* GameScene.swift in Sources */,
-				BF862153D903723227B1E6C3 /* GameView.swift in Sources */,
-				BF862153A2BA4CD67D7A0A58 /* ScoreManager.swift in Sources */,
-				BF8621537A63B22A137B6408 /* SkinManager.swift in Sources */,
-				BF8621534972D244257DBBA9 /* HUDView.swift in Sources */,
-				BF862153CAB86F52C117297D /* GameOverView.swift in Sources */,
-				BF862153551822958E6AAB91 /* ShopView.swift in Sources */,
-				BF8621538A962C612A36FB67 /* MissionsView.swift in Sources */,
+				629D2EAA5891EF0DF391E87B /* NeonPulseApp.swift in Sources */,
+				629D2EAA1B7ACE77AC09A6DD /* GameState.swift in Sources */,
+				629D2EAA5755FB66A2A4E5D8 /* SoundEngine.swift in Sources */,
+				629D2EAA709B6B697B2A8B5E /* HapticManager.swift in Sources */,
+				629D2EAAB6C45C41491837E7 /* ParticleManager.swift in Sources */,
+				629D2EAA72A1919E46DAC6C2 /* PhysicsCategory.swift in Sources */,
+				629D2EAAB920F9FEDE40CF35 /* PlayerNode.swift in Sources */,
+				629D2EAA7047A1C70CCEC5E7 /* ObstacleNode.swift in Sources */,
+				629D2EAA8A31220303096834 /* CollectibleNode.swift in Sources */,
+				629D2EAA4741823D5C683CB5 /* PowerUpNode.swift in Sources */,
+				629D2EAA4B84AAF9C5B7129D /* GameScene.swift in Sources */,
+				629D2EAA49A05089616671F8 /* GameView.swift in Sources */,
+				629D2EAAA24C99C8C82E12EC /* ScoreManager.swift in Sources */,
+				629D2EAA4E50BA5EC5C89A06 /* SkinManager.swift in Sources */,
+				629D2EAA085A8D5550B4EA95 /* HUDView.swift in Sources */,
+				629D2EAA64DC4F48400E2018 /* GameOverView.swift in Sources */,
+				629D2EAAB36B46EA7DBD06D2 /* ShopView.swift in Sources */,
+				629D2EAA38657C73D3AA837B /* MissionsView.swift in Sources */,
+				629D2EAAD63D5FFDB51718E1 /* CrateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

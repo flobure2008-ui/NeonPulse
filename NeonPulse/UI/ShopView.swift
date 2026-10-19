@@ -16,7 +16,7 @@ public struct ShopView: View {
                         Text("CYBER CORE SHOP")
                             .font(.system(size: 22, weight: .black, design: .monospaced))
                             .foregroundColor(.white)
-                        Text("PERSONNALISE TON NOYAU")
+                        Text("NOYAUX AVEC CAPACITÉS SPÉCIALES")
                             .font(.system(size: 11, weight: .bold, design: .monospaced))
                             .foregroundColor(.cyan)
                     }
@@ -76,7 +76,7 @@ private struct SkinRowView: View {
     }
     
     var body: some View {
-        HStack(spacing: 16) {
+        HStack(spacing: 14) {
             // Skin Preview Icon
             ZStack {
                 Circle()
@@ -88,18 +88,23 @@ private struct SkinRowView: View {
                     .stroke(Color.white, lineWidth: 2)
                     .frame(width: 44, height: 44)
             }
-            .padding(.leading, 8)
+            .padding(.leading, 6)
             
-            // Details
-            VStack(alignment: .leading, spacing: 4) {
+            // Details & Perk
+            VStack(alignment: .leading, spacing: 3) {
                 Text(skin.name)
                     .font(.system(size: 16, weight: .black, design: .monospaced))
                     .foregroundColor(.white)
                 
+                Text(skin.perk)
+                    .font(.system(size: 10, weight: .bold, design: .monospaced))
+                    .foregroundColor(.yellow)
+                    .lineLimit(1)
+                
                 Text(skin.description)
-                    .font(.system(size: 11, design: .default))
+                    .font(.system(size: 10, design: .default))
                     .foregroundColor(.gray)
-                    .lineLimit(2)
+                    .lineLimit(1)
             }
             
             Spacer()
@@ -109,7 +114,7 @@ private struct SkinRowView: View {
                 Text("ÉQUIPÉ")
                     .font(.system(size: 11, weight: .black, design: .monospaced))
                     .foregroundColor(.green)
-                    .padding(.horizontal, 14)
+                    .padding(.horizontal, 12)
                     .padding(.vertical, 8)
                     .background(Color.green.opacity(0.15))
                     .cornerRadius(8)
@@ -121,7 +126,7 @@ private struct SkinRowView: View {
                     Text("ÉQUIPER")
                         .font(.system(size: 11, weight: .black, design: .monospaced))
                         .foregroundColor(.white)
-                        .padding(.horizontal, 14)
+                        .padding(.horizontal, 12)
                         .padding(.vertical, 8)
                         .background(Color.cyan)
                         .cornerRadius(8)
@@ -141,7 +146,7 @@ private struct SkinRowView: View {
                             .font(.system(size: 12, weight: .black, design: .monospaced))
                     }
                     .foregroundColor(gameState.totalBits >= skin.price ? .black : .gray)
-                    .padding(.horizontal, 12)
+                    .padding(.horizontal, 10)
                     .padding(.vertical, 8)
                     .background(gameState.totalBits >= skin.price ? Color.yellow : Color.white.opacity(0.1))
                     .cornerRadius(8)
@@ -152,7 +157,7 @@ private struct SkinRowView: View {
         .padding(.horizontal, 12)
         .background(
             RoundedRectangle(cornerRadius: 14)
-                .fill(Color(white: 0.12))
+                .fill(Color(red: 0.12, green: 0.12, blue: 0.15))
                 .overlay(
                     RoundedRectangle(cornerRadius: 14)
                         .stroke(isEquipped ? Color.cyan : Color.white.opacity(0.08), lineWidth: isEquipped ? 2 : 1)

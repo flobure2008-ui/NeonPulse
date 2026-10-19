@@ -5,6 +5,7 @@ public struct SkinItem: Identifiable, Codable {
     public let id: String
     public let name: String
     public let description: String
+    public let perk: String
     public let price: Int
     public let coreHex: String
     public let glowHex: String
@@ -15,7 +16,7 @@ public struct SkinItem: Identifiable, Codable {
     }
     
     public var glowColor: UIColor {
-        return UIColor(hex: glowHex) ?? .magenta
+        return UIColor(hex: glowHex) ?? .systemPink
     }
     
     public var trailColor: UIColor {
@@ -30,7 +31,8 @@ public class SkinManager: ObservableObject {
         SkinItem(
             id: "skin_cyan",
             name: "Cyber Pulse",
-            description: "The original quantum core stabilizer.",
+            description: "Le stabilisateur quantique originel.",
+            perk: "⚡ Équilibre parfait & maniabilité accrue",
             price: 0,
             coreHex: "#00F5FF",
             glowHex: "#0077FE",
@@ -39,8 +41,9 @@ public class SkinManager: ObservableObject {
         SkinItem(
             id: "skin_solar",
             name: "Solar Flare",
-            description: "Forged in the heart of a dying coronal star.",
-            price: 150,
+            description: "Forgé dans le coeur d'une supernova.",
+            perk: "🔥 Jauge Overdrive se charge +40% plus vite",
+            price: 200,
             coreHex: "#FF9500",
             glowHex: "#FFD60A",
             trailHex: "#FF5E00"
@@ -48,8 +51,9 @@ public class SkinManager: ObservableObject {
         SkinItem(
             id: "skin_void",
             name: "Void Phantom",
-            description: "Harness dark energy and galactic singularity.",
-            price: 350,
+            description: "Manipule la matière noire et les trous de ver.",
+            perk: "🧲 Rayon magnétique de récolte permanent +50%",
+            price: 450,
             coreHex: "#AF52DE",
             glowHex: "#BF5AF2",
             trailHex: "#5E5CE6"
@@ -57,8 +61,9 @@ public class SkinManager: ObservableObject {
         SkinItem(
             id: "skin_matrix",
             name: "Matrix Glitch",
-            description: "A rogue sentient virus escaping the firewall.",
-            price: 600,
+            description: "Un virus renégat échappé du Cyberespace.",
+            perk: "💻 Score des Frôlements (Grazes) x2 (+250 pts)",
+            price: 750,
             coreHex: "#30D158",
             glowHex: "#34C759",
             trailHex: "#00FF66"
@@ -66,8 +71,9 @@ public class SkinManager: ObservableObject {
         SkinItem(
             id: "skin_inferno",
             name: "Inferno Core",
-            description: "Superheated nuclear plasma that incinerates spacetime.",
-            price: 1000,
+            description: "Plasma surchauffé qui désintègre la réalité.",
+            perk: "💥 Démarre avec 2 Bombes EMP au lieu de 1",
+            price: 1200,
             coreHex: "#FF3B30",
             glowHex: "#FF453A",
             trailHex: "#FF6B00"
@@ -75,8 +81,9 @@ public class SkinManager: ObservableObject {
         SkinItem(
             id: "skin_prismatic",
             name: "Prismatic Apex",
-            description: "Full-spectrum chromatic resonance. The ultimate relic.",
-            price: 2000,
+            description: "La relique ultime transcendant le spectre lumineux.",
+            perk: "🛡️ Bouclier de Phase protecteur gratuit à chaque run",
+            price: 2500,
             coreHex: "#FFFFFF",
             glowHex: "#00F5FF",
             trailHex: "#FF007F"
