@@ -1,6 +1,6 @@
 # ⚡ Neon Pulse : Cyber Strike (iOS)
 
-[![Build iOS IPA](https://github.com/USER/NeonPulse-iOS/actions/workflows/build-ipa.yml/badge.svg)](https://github.com/USER/NeonPulse-iOS/actions)
+[![Build iOS IPA](https://github.com/flobure2008-ui/NeonPulse/actions/workflows/build-ipa.yml/badge.svg)](https://github.com/flobure2008-ui/NeonPulse/actions)
 [![Platform](https://img.shields.io/badge/Platform-iOS%2015.0%2B-blue.svg)](https://apple.com)
 [![Swift](https://img.shields.io/badge/Swift-5.9%2B-orange.svg)](https://swift.org)
 [![Engine](https://img.shields.io/badge/Engine-SpriteKit%20%2B%20SwiftUI-purple.svg)](https://developer.apple.com)
@@ -35,7 +35,7 @@ Le projet inclut un workflow GitHub Actions automatisé (`.github/workflows/buil
    git add .
    git commit -m "Initial commit - Neon Pulse iOS Game"
    git branch -M main
-   git remote add origin https://github.com/VOTRE_PSEUDO/NeonPulse-iOS.git
+   git remote add origin https://github.com/flobure2008-ui/NeonPulse.git
    git push -u origin main
    ```
 
@@ -127,7 +127,7 @@ NeonPulse-iOS/
 Si vous disposez d'un Mac avec Xcode installé :
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/VOTRE_PSEUDO/NeonPulse-iOS.git
+   git clone https://github.com/flobure2008-ui/NeonPulse.git
    cd NeonPulse-iOS
    ```
 2. Ouvrez le projet dans Xcode :
